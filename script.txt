@@ -13,7 +13,7 @@ local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
 local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
 
 ScreamInArabic.Name = "ScreamInArabic"
-ScreamInArabic.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreamInArabic.Parent = game:WaitForChild("CoreGui")
 ScreamInArabic.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 DragFrame.Name = "DragFrame"
